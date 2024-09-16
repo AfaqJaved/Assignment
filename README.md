@@ -33,7 +33,7 @@
 - Fields: billing_id, customer_id, amount_due, due_date, status, created_at.
 - Relationships: Linked to customers and transactions.
 
-![[erd.png]]
+![[erd_final.png]]
 
 
 **Normalization/Denormalization Strategies**:
