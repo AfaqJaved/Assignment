@@ -69,7 +69,7 @@ This shows the hierarchical relationship between entities, with primary and fore
 
   
 
-**Part 2: Backend Architecture (3 hours)**
+## Part Two
 
 **Architecture Type:**
 
@@ -106,7 +106,8 @@ This shows the hierarchical relationship between entities, with primary and fore
 - **Audit Logs**: Maintain audit log services that track every API interaction, changes to critical data, and transactions. Store in separate, immutable collections in MongoDB.
 - **Usage Statistics**: Collect metrics like API usage, transaction volume, errors, and latency using a centralized logging service like ELK Stack or Prometheus/Grafana.
 
-**Part 3: Identifying Loopholes and Enhancements (1.5 hours)**
+
+## Part Three
 
 **Potential Loopholes:**
 
@@ -135,8 +136,7 @@ This shows the hierarchical relationship between entities, with primary and fore
 - **Enhancement**: Use advanced rate limiting strategies like adaptive throttling based on historical usage.
 
   
-
-**Conclusion**
+## Summary
 
 **Scalability:**
 
