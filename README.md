@@ -33,7 +33,7 @@
 - Fields: billing_id, customer_id, amount_due, due_date, status, created_at.
 - Relationships: Linked to customers and transactions.
 
-![[diagram-export-16-09-2024-17_49_13.png]]
+![[erd.png]]
 
 
 **Normalization/Denormalization Strategies**:
@@ -93,7 +93,7 @@ This shows the hierarchical relationship between entities, with primary and fore
 - MongoDB clusters for each service (with appropriate sharding/replication).
 - External integration via APIs (e.g., payment gateways).
 
-![[Architecture Diagram.png]]
+![[arch.png]]
 
   **Handling High Traffic and Security:**
 
